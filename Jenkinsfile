@@ -1,7 +1,7 @@
-import groovy.json.JsonSlurperClasic
+import groovy.json.JsonSlurperClassic
 
 def jsonParse(def json) {
-	new groovy.json.JsonSlurperClasic().parseText(json)
+	new groovy.json.JsonSlurperClassic().parseText(json)
 }
 
 pipeline {
